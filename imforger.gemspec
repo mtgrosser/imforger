@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'http:///github.com/mtgrosser/imforger'
   s.summary       = "Imforger [short for Image Forger, because we are making copies of images]  This class relies on the Imlib2 library to quickly convert between different file types, scaling and compressing on the way."
 
-  s.add_dependency 'rake-compiler', '>= 0.4.1'
+  s.add_development_dependency 'rake-compiler', '>= 0.4.1'
 end
 
 
