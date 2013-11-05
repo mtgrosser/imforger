@@ -46,3 +46,6 @@ pkg
 **.swp
 
 repos
+
+vendor
+.ruby-version

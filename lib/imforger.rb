@@ -1,8 +1,6 @@
-require 'imforger.so'
+require 'imforger/imforger'
 
 class Imforger
-  VERSION = '0.2.2'
-
   attr_accessor :input_image, :output_image, :options
 
   class Exception < RuntimeError; end
@@ -22,7 +20,8 @@ class Imforger
     save_file(File.expand_path(output_path))
   end
 
-private
+  private
+
   def check_format
     if @options[:format]
       raise(Imforger::Exception, "I don't know if that file format is supported!") unless %w(tif png jpg).include?(@options[:format])
