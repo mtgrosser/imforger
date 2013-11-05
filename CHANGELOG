@@ -1,0 +1,4 @@
+0.2.3 - 2013-11-05
+
+* remove precompiled binary
+* use path convention for requiring extension
